@@ -1,13 +1,12 @@
-name: hello
+name: C
 on: push
 
 jobs:
-  hello:
+  result:
     runs-on: ubuntu-latest
 
-
     steps:
-    - name: print hello world
-      run: print("HEllo")
+    - name: output
+      run: python RAC-1.py
 
       
