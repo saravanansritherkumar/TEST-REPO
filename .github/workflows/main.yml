@@ -16,7 +16,7 @@ jobs:
   
   print:
     runs-on: ubuntu-latest
+    needs: hello
     steps:
     - name: print
       run: echo "hello"
-      needs: hello
