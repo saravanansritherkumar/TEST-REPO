@@ -1,5 +1,10 @@
 name: C
-on: push
+
+oon: null
+  push: null
+    branches: master
+     pull: null
+       branches: master
 
 jobs:
   result:
