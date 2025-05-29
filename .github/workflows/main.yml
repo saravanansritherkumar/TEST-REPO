@@ -1,0 +1,12 @@
+name: C
+on: ["pull","push"]
+
+jobs:
+  result:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: output
+      run: PRAC-1.py
+
+      
