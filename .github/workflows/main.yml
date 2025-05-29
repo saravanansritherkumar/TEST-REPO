@@ -1,17 +1,12 @@
 name: C
-
-oon: null
+on: null
   push: null
     branches: master
-     pull: null
-       branches: master
-
+  pull_request: null
+     branches: master
 jobs:
   result:
     runs-on: ubuntu-latest
-
     steps:
-    - name: output
-      run: python PRAC-1.py
-
-      
+      - name: output
+        run: python PRAC-1.py
