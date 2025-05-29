@@ -7,6 +7,6 @@ jobs:
 
     steps:
     - name: output
-      run: python RAC-1.py
+      run: python PRAC-1.py
 
       
