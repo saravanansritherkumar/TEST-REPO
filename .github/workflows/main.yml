@@ -16,4 +16,6 @@ jobs:
   
   print:
     runs-on: ubuntu-latest
-    run: print("hello")
+    steps:
+    - name: print
+      run: print("hello")
