@@ -1,12 +1,13 @@
-name: C
+name: hello
 on: push
 
 jobs:
-  result:
+  hello:
     runs-on: ubuntu-latest
 
+
     steps:
-    - name: output
+    - name: print hello world
       run: print("HEllo")
 
       
