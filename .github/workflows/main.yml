@@ -1,0 +1,15 @@
+---
+name: hello
+on: push
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: clone
+      - uses: actions/checkout@v4
+      - name: python-setup
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: pytest
+        runs: python PRAC-1.py
