@@ -1,5 +1,5 @@
 name: C
-on: ["pull","push"]
+on: push
 
 jobs:
   result:
