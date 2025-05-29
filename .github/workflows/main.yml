@@ -19,3 +19,4 @@ jobs:
     steps:
     - name: print
       run: echo "hello"
+      needs: hello
