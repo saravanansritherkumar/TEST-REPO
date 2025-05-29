@@ -13,3 +13,7 @@ jobs:
           python-version: "3.10"
       - name: pytest
         run: python PRAC-1.py
+  
+  print:
+    runs-on: ubuntu-latest
+    run: print("hello")
