@@ -7,6 +7,6 @@ jobs:
 
     steps:
     - name: output
-      run: PRAC-1.py
+      run: print("HEllo")
 
       
