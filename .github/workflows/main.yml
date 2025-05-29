@@ -12,4 +12,4 @@ jobs:
         with:
           python-version: "3.13"
       - name: pytest
-        runs: python PRAC-1.py
+        run: python PRAC-1.py
